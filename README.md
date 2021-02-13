@@ -26,6 +26,9 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Screenshot
+![](src/screenshot/create-user.PNG)
+
 ## Installation
 
 ```bash
