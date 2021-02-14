@@ -14,7 +14,11 @@ export class UsersService {
 
     let createdUser = new this.userModel(createUserDto);
     return await createdUser.save();
+  }
 
+  async findOneByEmail(email){
+
+    return await this.userModel.findOne({email: email});
   }
 
 }
